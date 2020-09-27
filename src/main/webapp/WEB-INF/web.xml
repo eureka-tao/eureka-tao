@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>hello_maven</display-name>
+
+  <servlet>
+    <description></description>
+    <display-name>helloServlet</display-name>
+    <servlet-name>helloServlet</servlet-name>
+    <servlet-class>com.hz.web.helloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>helloServlet</servlet-name>
+    <url-pattern>/helloServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
